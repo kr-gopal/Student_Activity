@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:src="@drawable/saurabh"/>
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+
+        android:hint="Email Address"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:singleLine="true"
+
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:paddingLeft="5dp"
+        android:textSize="20dp"
+        android:singleLine="true"
+
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        />
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#55ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="LOGIN" />
+    <Button
+        android:id="@+id/btnfb"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#55ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Login With Facebook" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/forgotpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+
+            android:layout_marginBottom="2dp"
+            android:text="Dont have a Account? Sign Up"
+           />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText
+    android:id="@+id/name"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="15dp"
+    android:hint="Name"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:paddingLeft="5dp"
+    android:textSize="20dp"
+    android:singleLine="true"
+
+    android:ems="10"
+    />
+<EditText
+android:id="@+id/club"
+android:layout_width="fill_parent"
+android:layout_height="50dp"
+android:layout_marginTop="15dp"
+android:hint="Club Name"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+android:paddingLeft="5dp"
+android:textSize="20dp"
+android:singleLine="true"
+
+android:ems="10"
+    />
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Start Date"
+android:layout_marginTop="10dp"
+android:textSize="20sp"/>
+<DatePicker
+android:layout_marginTop="10dp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/date"
+
+
+    ></DatePicker>
+
+
+<EditText
+android:id="@+id/venue"
+android:layout_width="fill_parent"
+android:layout_height="50dp"
+android:layout_marginTop="15dp"
+android:hint="Venue"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+android:paddingLeft="5dp"
+android:textSize="20dp"
+android:singleLine="true"
+
+android:ems="10"
+    />
+
+<EditText
+android:id="@+id/Time"
+android:layout_width="fill_parent"
+android:layout_height="50dp"
+android:layout_marginTop="15dp"
+android:hint="Time[HHMM]"
+android:inputType="time"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+android:paddingLeft="5dp"
+android:textSize="20dp"
+android:singleLine="true"
+
+android:ems="10"
+    />
+<EditText
+android:id="@+id/Reserve"
+android:layout_width="fill_parent"
+android:layout_height="50dp"
+android:layout_marginTop="15dp"
+android:hint="Reserve Venue"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+android:paddingLeft="5dp"
+android:textSize="20dp"
+android:singleLine="true"
+
+android:ems="10"
+    />
+<EditText
+android:id="@+id/budget"
+android:layout_width="fill_parent"
+android:layout_height="50dp"
+android:layout_marginTop="15dp"
+android:hint="Budget"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+android:paddingLeft="5dp"
+android:textSize="20dp"
+android:singleLine="true"
+android:inputType="number"
+android:ems="10"
+    />
+<EditText
+android:id="@+id/pr"
+android:layout_width="fill_parent"
+android:layout_height="50dp"
+android:layout_marginTop="15dp"
+android:hint="Price"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+android:paddingLeft="5dp"
+android:textSize="20dp"
+android:singleLine="true"
+android:inputType="number"
+android:ems="10"
+    />
+
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Submit"
+android:layout_gravity="center"
+android:gravity="center"
+android:id="@+id/signup"/>
+
+
+    </LinearLayout>

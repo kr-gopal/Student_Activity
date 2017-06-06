@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tech. Council LNMIIT</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Search">Search</string>
+    <string name="title_activity_sub_">Sub_Activity</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="APPLINK">www.lnmiit.ac.in</string>
+    <string-array name="tabs">
+        <item>Login</item>
+        <item>Sign Up</item>
+
+    </string-array>
+    <string-array name="method">
+        <item>STUDENT</item>
+        <item>EMC</item>
+        <item>ADMINITRATION</item>
+    </string-array>
+    <string name="LBL_SHARE_VIA">Share Via</string>
+    <string name="MOBILE_NO">07597021551</string>
+    <string name="companyAddress">LNMIIT,JAIPUR</string>
+    <string name="companyContactPerson">Gaurav Garg(099), Gaurav Joshi(100),Gaurav Kumar(101),Gopal Kumar(105)</string>
+    <string name="companyEmailAddress">Group 14</string>
+    <string name="companyMobNo">097720 02130</string>
+
+
+</resources>
